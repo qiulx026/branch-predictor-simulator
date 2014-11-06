@@ -1,0 +1,240 @@
+max_sim_count   =   0
+max_inst_count   =   0
+output_file   =   trace_d2.out
+print_inst   =   0
+perfect_icache   =   1
+perfect_dcache   =   0
+perfect_br   =   1
+perfect_l2   =   1
+read_trace   =   1
+trace_file   =   trace.pzip
+issue_width   =   1
+icache_latency   =   1
+dcache_latency   =   5
+mem_latency   =   1
+l2cache_latency   =   1
+print_pipe_freq   =   0
+dcache_size   =   128
+dcache_way   =   8
+block_size   =   64
+dcache_fixed_penalty   =   200
+mem_latency_row_hit   =   100
+mem_latency_row_miss   =   200
+mshr_size   =   4
+dram_bank_num   =   4
+dram_page_size   =   2
+print_mem_debug   =   0
+use_bpred   =   1
+bpred_type   =   3
+bpred_hist_len   =   12
+enable_vmem   =   1
+tlb_entries   =   4
+vmem_page_size   =   4096
+**Heartbeat** cycle_count: 5000 inst:704 IPC: 0.1408 Overall IPC: 0.1408
+**Heartbeat** cycle_count: 10000 inst:1592 IPC: 0.1776 Overall IPC: 0.1592
+**Heartbeat** cycle_count: 15000 inst:2537 IPC: 0.189 Overall IPC: 0.169133
+**Heartbeat** cycle_count: 20000 inst:3959 IPC: 0.2844 Overall IPC: 0.19795
+**Heartbeat** cycle_count: 25000 inst:6059 IPC: 0.42 Overall IPC: 0.24236
+**Heartbeat** cycle_count: 30000 inst:7850 IPC: 0.3582 Overall IPC: 0.261667
+**Heartbeat** cycle_count: 35000 inst:9624 IPC: 0.3548 Overall IPC: 0.274971
+**Heartbeat** cycle_count: 40000 inst:11415 IPC: 0.3582 Overall IPC: 0.285375
+**Heartbeat** cycle_count: 45000 inst:13240 IPC: 0.365 Overall IPC: 0.294222
+**Heartbeat** cycle_count: 50000 inst:14517 IPC: 0.2554 Overall IPC: 0.29034
+**Heartbeat** cycle_count: 55000 inst:16141 IPC: 0.3248 Overall IPC: 0.293473
+**Heartbeat** cycle_count: 60000 inst:17845 IPC: 0.3408 Overall IPC: 0.297417
+**Heartbeat** cycle_count: 65000 inst:19546 IPC: 0.3402 Overall IPC: 0.300708
+**Heartbeat** cycle_count: 70000 inst:21262 IPC: 0.3432 Overall IPC: 0.303743
+**Heartbeat** cycle_count: 75000 inst:22934 IPC: 0.3344 Overall IPC: 0.305787
+**Heartbeat** cycle_count: 80000 inst:24164 IPC: 0.246 Overall IPC: 0.30205
+**Heartbeat** cycle_count: 85000 inst:24785 IPC: 0.1242 Overall IPC: 0.291588
+**Heartbeat** cycle_count: 90000 inst:26114 IPC: 0.2658 Overall IPC: 0.290156
+**Heartbeat** cycle_count: 95000 inst:27904 IPC: 0.358 Overall IPC: 0.293726
+**Heartbeat** cycle_count: 100000 inst:29315 IPC: 0.2822 Overall IPC: 0.29315
+**Heartbeat** cycle_count: 105000 inst:30441 IPC: 0.2252 Overall IPC: 0.289914
+**Heartbeat** cycle_count: 110000 inst:32249 IPC: 0.3616 Overall IPC: 0.293173
+**Heartbeat** cycle_count: 115000 inst:33963 IPC: 0.3428 Overall IPC: 0.29533
+**Heartbeat** cycle_count: 120000 inst:34595 IPC: 0.1264 Overall IPC: 0.288292
+**Heartbeat** cycle_count: 125000 inst:35633 IPC: 0.2076 Overall IPC: 0.285064
+**Heartbeat** cycle_count: 130000 inst:37321 IPC: 0.3376 Overall IPC: 0.287085
+**Heartbeat** cycle_count: 135000 inst:39132 IPC: 0.3622 Overall IPC: 0.289867
+**Heartbeat** cycle_count: 140000 inst:40133 IPC: 0.2002 Overall IPC: 0.286664
+**Heartbeat** cycle_count: 145000 inst:41643 IPC: 0.302 Overall IPC: 0.287193
+**Heartbeat** cycle_count: 150000 inst:43268 IPC: 0.325 Overall IPC: 0.288453
+**Heartbeat** cycle_count: 155000 inst:45124 IPC: 0.3712 Overall IPC: 0.291123
+**Heartbeat** cycle_count: 160000 inst:46110 IPC: 0.1972 Overall IPC: 0.288188
+**Heartbeat** cycle_count: 165000 inst:46826 IPC: 0.1432 Overall IPC: 0.283794
+**Heartbeat** cycle_count: 170000 inst:48358 IPC: 0.3064 Overall IPC: 0.284459
+**Heartbeat** cycle_count: 175000 inst:50042 IPC: 0.3368 Overall IPC: 0.285954
+**Heartbeat** cycle_count: 180000 inst:52049 IPC: 0.4014 Overall IPC: 0.289161
+**Heartbeat** cycle_count: 185000 inst:53098 IPC: 0.2098 Overall IPC: 0.287016
+**Heartbeat** cycle_count: 190000 inst:54724 IPC: 0.3252 Overall IPC: 0.288021
+**Heartbeat** cycle_count: 195000 inst:56427 IPC: 0.3406 Overall IPC: 0.289369
+**Heartbeat** cycle_count: 200000 inst:58363 IPC: 0.3872 Overall IPC: 0.291815
+**Heartbeat** cycle_count: 205000 inst:59547 IPC: 0.2368 Overall IPC: 0.290473
+**Heartbeat** cycle_count: 210000 inst:61051 IPC: 0.3008 Overall IPC: 0.290719
+**Heartbeat** cycle_count: 215000 inst:62884 IPC: 0.3666 Overall IPC: 0.292484
+**Heartbeat** cycle_count: 220000 inst:64629 IPC: 0.349 Overall IPC: 0.293768
+**Heartbeat** cycle_count: 225000 inst:65235 IPC: 0.1212 Overall IPC: 0.289933
+**Heartbeat** cycle_count: 230000 inst:66231 IPC: 0.1992 Overall IPC: 0.287961
+**Heartbeat** cycle_count: 235000 inst:68043 IPC: 0.3624 Overall IPC: 0.289545
+**Heartbeat** cycle_count: 240000 inst:69792 IPC: 0.3498 Overall IPC: 0.2908
+**Heartbeat** cycle_count: 245000 inst:71463 IPC: 0.3342 Overall IPC: 0.291686
+**Heartbeat** cycle_count: 250000 inst:73196 IPC: 0.3466 Overall IPC: 0.292784
+**Heartbeat** cycle_count: 255000 inst:74871 IPC: 0.335 Overall IPC: 0.293612
+**Heartbeat** cycle_count: 260000 inst:76413 IPC: 0.3084 Overall IPC: 0.293896
+**Heartbeat** cycle_count: 265000 inst:77944 IPC: 0.3062 Overall IPC: 0.294128
+**Heartbeat** cycle_count: 270000 inst:79563 IPC: 0.3238 Overall IPC: 0.294678
+**Heartbeat** cycle_count: 275000 inst:81120 IPC: 0.3114 Overall IPC: 0.294982
+**Heartbeat** cycle_count: 280000 inst:82731 IPC: 0.3222 Overall IPC: 0.295468
+**Heartbeat** cycle_count: 285000 inst:84319 IPC: 0.3176 Overall IPC: 0.295856
+**Heartbeat** cycle_count: 290000 inst:85922 IPC: 0.3206 Overall IPC: 0.296283
+**Heartbeat** cycle_count: 295000 inst:87470 IPC: 0.3096 Overall IPC: 0.296508
+**Heartbeat** cycle_count: 300000 inst:89010 IPC: 0.308 Overall IPC: 0.2967
+**Heartbeat** cycle_count: 305000 inst:90530 IPC: 0.304 Overall IPC: 0.29682
+**Heartbeat** cycle_count: 310000 inst:92213 IPC: 0.3366 Overall IPC: 0.297461
+**Heartbeat** cycle_count: 315000 inst:93732 IPC: 0.3038 Overall IPC: 0.297562
+**Heartbeat** cycle_count: 320000 inst:94723 IPC: 0.1982 Overall IPC: 0.296009
+**Heartbeat** cycle_count: 325000 inst:96237 IPC: 0.3028 Overall IPC: 0.296114
+**Heartbeat** cycle_count: 330000 inst:97192 IPC: 0.191 Overall IPC: 0.294521
+**Heartbeat** cycle_count: 335000 inst:98239 IPC: 0.2094 Overall IPC: 0.293251
+**Heartbeat** cycle_count: 340000 inst:99991 IPC: 0.3504 Overall IPC: 0.294091
+**Heartbeat** cycle_count: 345000 inst:101374 IPC: 0.2766 Overall IPC: 0.293838
+**Heartbeat** cycle_count: 350000 inst:102147 IPC: 0.1546 Overall IPC: 0.291849
+**Heartbeat** cycle_count: 355000 inst:103196 IPC: 0.2098 Overall IPC: 0.290693
+**Heartbeat** cycle_count: 360000 inst:104342 IPC: 0.2292 Overall IPC: 0.289839
+**Heartbeat** cycle_count: 365000 inst:105409 IPC: 0.2134 Overall IPC: 0.288792
+**Heartbeat** cycle_count: 370000 inst:106531 IPC: 0.2244 Overall IPC: 0.287922
+**Heartbeat** cycle_count: 375000 inst:107601 IPC: 0.214 Overall IPC: 0.286936
+**Heartbeat** cycle_count: 380000 inst:108759 IPC: 0.2316 Overall IPC: 0.286208
+**Heartbeat** cycle_count: 385000 inst:109814 IPC: 0.211 Overall IPC: 0.285231
+**Heartbeat** cycle_count: 390000 inst:110893 IPC: 0.2158 Overall IPC: 0.284341
+**Heartbeat** cycle_count: 395000 inst:111950 IPC: 0.2114 Overall IPC: 0.283418
+**Heartbeat** cycle_count: 400000 inst:112969 IPC: 0.2038 Overall IPC: 0.282423
+**Heartbeat** cycle_count: 405000 inst:114002 IPC: 0.2066 Overall IPC: 0.281486
+**Heartbeat** cycle_count: 410000 inst:115113 IPC: 0.2222 Overall IPC: 0.280763
+**Heartbeat** cycle_count: 415000 inst:116192 IPC: 0.2158 Overall IPC: 0.279981
+**Heartbeat** cycle_count: 420000 inst:117331 IPC: 0.2278 Overall IPC: 0.27936
+**Heartbeat** cycle_count: 425000 inst:118467 IPC: 0.2272 Overall IPC: 0.278746
+**Heartbeat** cycle_count: 430000 inst:119626 IPC: 0.2318 Overall IPC: 0.2782
+**Heartbeat** cycle_count: 435000 inst:120597 IPC: 0.1942 Overall IPC: 0.277234
+**Heartbeat** cycle_count: 440000 inst:121644 IPC: 0.2094 Overall IPC: 0.276464
+**Heartbeat** cycle_count: 445000 inst:122683 IPC: 0.2078 Overall IPC: 0.275692
+**Heartbeat** cycle_count: 450000 inst:123807 IPC: 0.2248 Overall IPC: 0.275127
+**Heartbeat** cycle_count: 455000 inst:124894 IPC: 0.2174 Overall IPC: 0.274492
+**Heartbeat** cycle_count: 460000 inst:125981 IPC: 0.2174 Overall IPC: 0.273872
+**Heartbeat** cycle_count: 465000 inst:127089 IPC: 0.2216 Overall IPC: 0.27331
+**Heartbeat** cycle_count: 470000 inst:128263 IPC: 0.2348 Overall IPC: 0.2729
+**Heartbeat** cycle_count: 475000 inst:129382 IPC: 0.2238 Overall IPC: 0.272383
+**Heartbeat** cycle_count: 480000 inst:130525 IPC: 0.2286 Overall IPC: 0.271927
+**Heartbeat** cycle_count: 485000 inst:131552 IPC: 0.2054 Overall IPC: 0.271241
+**Heartbeat** cycle_count: 490000 inst:132598 IPC: 0.2092 Overall IPC: 0.270608
+**Heartbeat** cycle_count: 495000 inst:133586 IPC: 0.1976 Overall IPC: 0.269871
+**Heartbeat** cycle_count: 500000 inst:134710 IPC: 0.2248 Overall IPC: 0.26942
+**Heartbeat** cycle_count: 505000 inst:135833 IPC: 0.2246 Overall IPC: 0.268976
+**Heartbeat** cycle_count: 510000 inst:136983 IPC: 0.23 Overall IPC: 0.268594
+**Heartbeat** cycle_count: 515000 inst:138107 IPC: 0.2248 Overall IPC: 0.268169
+**Heartbeat** cycle_count: 520000 inst:139223 IPC: 0.2232 Overall IPC: 0.267737
+**Heartbeat** cycle_count: 525000 inst:140360 IPC: 0.2274 Overall IPC: 0.267352
+**Heartbeat** cycle_count: 530000 inst:141396 IPC: 0.2072 Overall IPC: 0.266785
+**Heartbeat** cycle_count: 535000 inst:142375 IPC: 0.1958 Overall IPC: 0.266122
+**Heartbeat** cycle_count: 540000 inst:143353 IPC: 0.1956 Overall IPC: 0.265469
+**Heartbeat** cycle_count: 545000 inst:144475 IPC: 0.2244 Overall IPC: 0.265092
+**Heartbeat** cycle_count: 550000 inst:145585 IPC: 0.222 Overall IPC: 0.2647
+**Heartbeat** cycle_count: 555000 inst:146717 IPC: 0.2264 Overall IPC: 0.264355
+**Heartbeat** cycle_count: 560000 inst:147841 IPC: 0.2248 Overall IPC: 0.264002
+**Heartbeat** cycle_count: 565000 inst:148995 IPC: 0.2308 Overall IPC: 0.263708
+**Heartbeat** cycle_count: 570000 inst:150123 IPC: 0.2256 Overall IPC: 0.263374
+**Heartbeat** cycle_count: 575000 inst:151256 IPC: 0.2266 Overall IPC: 0.263054
+**Heartbeat** cycle_count: 580000 inst:152327 IPC: 0.2142 Overall IPC: 0.262633
+**Heartbeat** cycle_count: 585000 inst:153257 IPC: 0.186 Overall IPC: 0.261978
+**Heartbeat** cycle_count: 590000 inst:154499 IPC: 0.2484 Overall IPC: 0.261863
+**Heartbeat** cycle_count: 595000 inst:155765 IPC: 0.2532 Overall IPC: 0.26179
+**Heartbeat** cycle_count: 600000 inst:157324 IPC: 0.3118 Overall IPC: 0.262207
+**Heartbeat** cycle_count: 605000 inst:158939 IPC: 0.323 Overall IPC: 0.262709
+**Heartbeat** cycle_count: 610000 inst:160384 IPC: 0.289 Overall IPC: 0.262925
+**Heartbeat** cycle_count: 615000 inst:161746 IPC: 0.2724 Overall IPC: 0.263002
+**Heartbeat** cycle_count: 620000 inst:163218 IPC: 0.2944 Overall IPC: 0.263255
+**Heartbeat** cycle_count: 625000 inst:164748 IPC: 0.306 Overall IPC: 0.263597
+**Heartbeat** cycle_count: 630000 inst:166240 IPC: 0.2984 Overall IPC: 0.263873
+**Heartbeat** cycle_count: 635000 inst:167700 IPC: 0.292 Overall IPC: 0.264095
+**Heartbeat** cycle_count: 640000 inst:169229 IPC: 0.3058 Overall IPC: 0.26442
+**Heartbeat** cycle_count: 645000 inst:170777 IPC: 0.3096 Overall IPC: 0.264771
+**Heartbeat** cycle_count: 650000 inst:172260 IPC: 0.2966 Overall IPC: 0.265015
+**Heartbeat** cycle_count: 655000 inst:173767 IPC: 0.3014 Overall IPC: 0.265293
+**Heartbeat** cycle_count: 660000 inst:175352 IPC: 0.317 Overall IPC: 0.265685
+**Heartbeat** cycle_count: 665000 inst:176903 IPC: 0.3102 Overall IPC: 0.26602
+**Heartbeat** cycle_count: 670000 inst:178405 IPC: 0.3004 Overall IPC: 0.266276
+**Heartbeat** cycle_count: 675000 inst:179896 IPC: 0.2982 Overall IPC: 0.266513
+**Heartbeat** cycle_count: 680000 inst:181445 IPC: 0.3098 Overall IPC: 0.266831
+**Heartbeat** cycle_count: 685000 inst:182913 IPC: 0.2936 Overall IPC: 0.267026
+**Heartbeat** cycle_count: 690000 inst:184452 IPC: 0.3078 Overall IPC: 0.267322
+**Heartbeat** cycle_count: 695000 inst:185947 IPC: 0.299 Overall IPC: 0.26755
+**Heartbeat** cycle_count: 700000 inst:187405 IPC: 0.2916 Overall IPC: 0.267721
+**Heartbeat** cycle_count: 705000 inst:188100 IPC: 0.139 Overall IPC: 0.266809
+**Heartbeat** cycle_count: 710000 inst:189038 IPC: 0.1876 Overall IPC: 0.266251
+**Heartbeat** cycle_count: 715000 inst:190859 IPC: 0.3642 Overall IPC: 0.266936
+**Heartbeat** cycle_count: 720000 inst:192714 IPC: 0.371 Overall IPC: 0.267658
+**Heartbeat** cycle_count: 725000 inst:194506 IPC: 0.3584 Overall IPC: 0.268284
+**Heartbeat** cycle_count: 730000 inst:196276 IPC: 0.354 Overall IPC: 0.268871
+**Heartbeat** cycle_count: 735000 inst:197904 IPC: 0.3256 Overall IPC: 0.269257
+**Heartbeat** cycle_count: 740000 inst:198614 IPC: 0.142 Overall IPC: 0.268397
+**Heartbeat** cycle_count: 745000 inst:199990 IPC: 0.2752 Overall IPC: 0.268443
+**Heartbeat** cycle_count: 750000 inst:201425 IPC: 0.287 Overall IPC: 0.268567
+**Heartbeat** cycle_count: 755000 inst:202639 IPC: 0.2428 Overall IPC: 0.268396
+**Heartbeat** cycle_count: 760000 inst:203892 IPC: 0.2506 Overall IPC: 0.268279
+**Heartbeat** cycle_count: 765000 inst:205175 IPC: 0.2566 Overall IPC: 0.268203
+**Heartbeat** cycle_count: 770000 inst:206436 IPC: 0.2522 Overall IPC: 0.268099
+**Heartbeat** cycle_count: 775000 inst:207851 IPC: 0.283 Overall IPC: 0.268195
+**Heartbeat** cycle_count: 780000 inst:209304 IPC: 0.2906 Overall IPC: 0.268338
+**Heartbeat** cycle_count: 785000 inst:211015 IPC: 0.3422 Overall IPC: 0.268809
+**Heartbeat** cycle_count: 790000 inst:212770 IPC: 0.351 Overall IPC: 0.269329
+**Heartbeat** cycle_count: 795000 inst:214526 IPC: 0.3512 Overall IPC: 0.269844
+**Heartbeat** cycle_count: 800000 inst:216283 IPC: 0.3514 Overall IPC: 0.270354
+**Heartbeat** cycle_count: 805000 inst:218059 IPC: 0.3552 Overall IPC: 0.270881
+**Heartbeat** cycle_count: 810000 inst:219842 IPC: 0.3566 Overall IPC: 0.27141
+**Heartbeat** cycle_count: 815000 inst:221614 IPC: 0.3544 Overall IPC: 0.271919
+**Heartbeat** cycle_count: 820000 inst:223380 IPC: 0.3532 Overall IPC: 0.272415
+**Heartbeat** cycle_count: 825000 inst:225163 IPC: 0.3566 Overall IPC: 0.272925
+**Heartbeat** cycle_count: 830000 inst:226949 IPC: 0.3572 Overall IPC: 0.273433
+**Heartbeat** cycle_count: 835000 inst:228221 IPC: 0.2544 Overall IPC: 0.273319
+**Heartbeat** cycle_count: 840000 inst:229873 IPC: 0.3304 Overall IPC: 0.273658
+**Heartbeat** cycle_count: 845000 inst:231509 IPC: 0.3272 Overall IPC: 0.273975
+**Heartbeat** cycle_count: 850000 inst:232940 IPC: 0.2862 Overall IPC: 0.274047
+**Heartbeat** cycle_count: 855000 inst:234770 IPC: 0.366 Overall IPC: 0.274585
+**Heartbeat** cycle_count: 860000 inst:236304 IPC: 0.3068 Overall IPC: 0.274772
+**Heartbeat** cycle_count: 865000 inst:237918 IPC: 0.3228 Overall IPC: 0.27505
+**Heartbeat** cycle_count: 870000 inst:239520 IPC: 0.3204 Overall IPC: 0.27531
+**Heartbeat** cycle_count: 875000 inst:240874 IPC: 0.2708 Overall IPC: 0.275285
+**Heartbeat** cycle_count: 880000 inst:242333 IPC: 0.2918 Overall IPC: 0.275378
+**Heartbeat** cycle_count: 885000 inst:243748 IPC: 0.283 Overall IPC: 0.275421
+**Heartbeat** cycle_count: 890000 inst:245181 IPC: 0.2866 Overall IPC: 0.275484
+**Heartbeat** cycle_count: 895000 inst:246659 IPC: 0.2956 Overall IPC: 0.275597
+**Heartbeat** cycle_count: 900000 inst:248113 IPC: 0.2908 Overall IPC: 0.275681
+**Heartbeat** cycle_count: 905000 inst:249568 IPC: 0.291 Overall IPC: 0.275766
+**Heartbeat** cycle_count: 910000 inst:251027 IPC: 0.2918 Overall IPC: 0.275854
+**Heartbeat** cycle_count: 915000 inst:252542 IPC: 0.303 Overall IPC: 0.276002
+**Heartbeat** cycle_count: 920000 inst:254033 IPC: 0.2982 Overall IPC: 0.276123
+**Heartbeat** cycle_count: 925000 inst:255478 IPC: 0.289 Overall IPC: 0.276192
+**Heartbeat** cycle_count: 930000 inst:256924 IPC: 0.2892 Overall IPC: 0.276262
+**Heartbeat** cycle_count: 935000 inst:258152 IPC: 0.2456 Overall IPC: 0.276098
+**Heartbeat** cycle_count: 940000 inst:259616 IPC: 0.2928 Overall IPC: 0.276187
+**Heartbeat** cycle_count: 945000 inst:260755 IPC: 0.2278 Overall IPC: 0.275931
+**Heartbeat** cycle_count: 950000 inst:262279 IPC: 0.3048 Overall IPC: 0.276083
+**Heartbeat** cycle_count: 955000 inst:263817 IPC: 0.3076 Overall IPC: 0.276248
+**Heartbeat** cycle_count: 960000 inst:265403 IPC: 0.3172 Overall IPC: 0.276461
+**Heartbeat** cycle_count: 965000 inst:266940 IPC: 0.3074 Overall IPC: 0.276622
+**Heartbeat** cycle_count: 970000 inst:268506 IPC: 0.3132 Overall IPC: 0.27681
+**Heartbeat** cycle_count: 975000 inst:270071 IPC: 0.313 Overall IPC: 0.276996
+**Heartbeat** cycle_count: 980000 inst:271534 IPC: 0.2926 Overall IPC: 0.277075
+**Heartbeat** cycle_count: 985000 inst:272933 IPC: 0.2798 Overall IPC: 0.277089
+**Heartbeat** cycle_count: 990000 inst:274440 IPC: 0.3014 Overall IPC: 0.277212
+**Heartbeat** cycle_count: 995000 inst:275948 IPC: 0.3016 Overall IPC: 0.277335
+**Heartbeat** cycle_count: 1000000 inst:277498 IPC: 0.31 Overall IPC: 0.277498
+**Heartbeat** cycle_count: 1005000 inst:278995 IPC: 0.2994 Overall IPC: 0.277607
+**Heartbeat** cycle_count: 1010000 inst:280527 IPC: 0.3064 Overall IPC: 0.27775
+**Heartbeat** cycle_count: 1015000 inst:282040 IPC: 0.3026 Overall IPC: 0.277872
+**Heartbeat** cycle_count: 1020000 inst:283573 IPC: 0.3066 Overall IPC: 0.278013
+**Heartbeat** cycle_count: 1025000 inst:285093 IPC: 0.304 Overall IPC: 0.27814
+**Heartbeat** cycle_count: 1030000 inst:286637 IPC: 0.3088 Overall IPC: 0.278288
+**Heartbeat** cycle_count: 1035000 inst:288107 IPC: 0.294 Overall IPC: 0.278364
+**Heartbeat** cycle_count: 1036597 inst:288523 IPC: 0.260488 Overall IPC: 0.278337
